@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Bubble Game</h1>
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h3>hit</h3>
+                    <div id="hit-box"class="box">5</div>
+                </div>
+                <div class="elem">
+                    <h3>timer</h3>
+                    <div id="timer-box" class="box">60</div>
+                </div>
+                <div class="elem">
+                    <h3>score</h3>
+                    <div id="score-box" class="box">0</div>
+                </div>
+                <div id="rebtn">
+                    <button id="restart" onclick="gamerestart()">Restart</button>
+                </div>
+            </div>
+            <div id="p-bottom">
+
+                <!-- bubbles will be generated in this div -->
+            
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
